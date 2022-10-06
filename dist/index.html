@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.min.css">
+    <link rel="stylesheet" href="css/pub.min.css">
+    <link rel="stylesheet" href="css/gonggong2.min.css">
+    <script src="./lib/jquery-1.12.4.js"></script>
+</head>
+
+<body>
+   
+    <!-- <div id="toutou"></div>
+    <div id="dingwei"></div>
+    <div id="youfu"></div> -->
+<!-- 头部 -->
+<div id="header">
+    <!-- 上面的 -->
+    <div class="headT">
+         <!-- 版心内容 -->
+    <div class="center-content">
+        <!-- 左边有货 -->
+        <div class="leftyoho left">
+            <svg t="1664012097650" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7472" width="16" height="12"><path d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zM904 784H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zM904 472H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z" p-id="7473"></path></svg>
+            <a href="" class="yohoA">YOHO!BUY有货</a>
+            <!-- 下拉  -->
+            <ul>
+                <li><a class="xian" href="#">YOHO!</a><a class="yin" href="#">集团官网</a></li>
+                <li><a class="xian" href="#">YOHO!BOYS</a><a class="yin" href="#">男生潮流</a></li>
+                <li><a class="xian" href="#">YOHO!!GIRLS</a><a class="yin" href="#">女生潮流</a></li>
+                <li><a class="xian" href="#">Mars</a><a class="yin" href="#">新鲜好去处</a></li>
+                <li><a class="xian" href="#">YO'HOOD</a><a class="yin" href="#">潮流嘉年华</a></li>
+            </ul>
+        </div>
+        <!-- 中间提醒 -->
+        <div class="swindle left">
+            <svg t="1664012011596" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7261" width="15" height="14"><path d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64z m0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z" p-id="7262" fill="#d81e06"></path><path d="M512 688m-48 0a48 48 0 1 0 96 0 48 48 0 1 0-96 0Z" p-id="7263" fill="#d81e06"></path><path d="M488 576h48c4.4 0 8-3.6 8-8V296c0-4.4-3.6-8-8-8h-48c-4.4 0-8 3.6-8 8v272c0 4.4 3.6 8 8 8z" p-id="7264" fill="#d81e06"></path></svg>
+            <a href="">关于防诈骗的重要提醒</a>
+        </div>
+        <!-- 右边的登录注册 -->
+        <div class="yohoright">
+            <ul>
+                <!-- 登录 -->
+                <li class="loginBox">
+                    <span class="hi">Hi~</span>
+                    [
+                    <!-- 登录 -->
+                    <a href="" class="login">请登录</a>
+                    ] [
+                    <a href="" class="regist">免费注册</a>
+                    ]
+
+                </li>
+                <!-- 有货  -->
+                <li class="myhuo">
+                    <div class="span">
+                        <span></span>
+                    </div>
+                    <a href="">MY有货</a>
+                    <svg t="1664012564528" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7612" width="15" height="10"><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3 0.1-12.7-6.4-12.7z" p-id="7613"></path></svg>
+                </li>
+                <!-- 我的订单  -->
+                <li class="myD">
+                    <div class="span">
+                        <span></span>
+                    </div>
+                    <svg t="1664093326465" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="13889" width="16" height="16"><path d="M832 64H192c-17.7 0-32 14.3-32 32v832c0 17.7 14.3 32 32 32h640c17.7 0 32-14.3 32-32V96c0-17.7-14.3-32-32-32z m-40 824H232V687h97.9c11.6 32.8 32 62.3 59.1 84.7 34.5 28.5 78.2 44.3 123 44.3s88.5-15.7 123-44.3c27.1-22.4 47.5-51.9 59.1-84.7H792v-63H643.6l-5.2 24.7C626.4 708.5 573.2 752 512 752s-114.4-43.5-126.5-103.3l-5.2-24.7H232V136h560v752z" p-id="13890" fill="#8a8a8a"></path><path d="M320 341h384c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8H320c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8zM320 501h384c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8H320c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8z" p-id="13891" fill="#8a8a8a"></path></svg>
+                    <a href="">我的订单</a>
+                </li>
+                <!-- 我的收藏  -->
+                <li class="mycollect">
+                    <div class="span">
+                        <span></span>
+                    </div>
+                    <svg t="1664093556454" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="960" width="15" height="13"><path d="M109.44 196.458667C6.72 304.618667 8.405333 475.648 114.517333 581.76l26.069334 26.069333 0.682666 1.6c2.026667 4.202667 4.8 8.149333 8.277334 11.648l330.176 330.154667 2.709333 2.496c7.381333 6.208 16.362667 9.514667 25.429333 9.941333l4.096-0.021333 0.490667 0.042667a42.56 42.56 0 0 0 31.872-12.458667l330.176-330.154667 2.496-2.730666a42.453333 42.453333 0 0 0 5.802667-8.981334l0.682666-1.6 26.026667-25.984 5.248-5.397333c102.784-108.906667 100.458667-279.424-5.226667-385.109333L904.533333 186.453333l-5.312-4.906666c-109.013333-98.197333-276.096-94.442667-380.245333 9.728l-7.018667 6.954666-6.976-6.954666c-107.84-107.84-282.666667-107.84-390.506666 0l-5.034667 5.184z m335.232 55.146666l37.141333 37.162667a42.666667 42.666667 0 0 0 60.330667 0l37.184-37.141333c73.152-73.173333 191.232-74.645333 266.112-3.626667l4.117333 4.010667c72.618667 72.618667 74.24 190.464 3.541334 265.365333l-4.373334 4.48-36.736 36.693333-2.496 2.730667a42.453333 42.453333 0 0 0-5.824 9.002667l-0.682666 1.6L512 862.869333 220.970667 571.84l-0.704-1.621333a42.602667 42.602667 0 0 0-8.277334-11.648l-37.141333-37.141334a190.784 190.784 0 1 1 269.824-269.824z" fill="#8a8a8a" p-id="961"></path></svg>
+                    <a href="">我的收藏</a>
+                </li>
+                <!-- 消息 -->
+                <li class="message">
+                    <div class="span">
+                        <span></span>
+                    </div>
+                    <svg t="1664013165797" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="9130" width="20" height="17"><path d="M928 160H96c-17.7 0-32 14.3-32 32v640c0 17.7 14.3 32 32 32h832c17.7 0 32-14.3 32-32V192c0-17.7-14.3-32-32-32z m-40 110.8V792H136V270.8l-27.6-21.5 39.3-50.5 42.8 33.3h643.1l42.8-33.3 39.3 50.5-27.7 21.5z" p-id="9131" fill="#8a8a8a"></path><path d="M833.6 232L512 482 190.4 232l-42.8-33.3-39.3 50.5 27.6 21.5 341.6 265.6c20.2 15.7 48.5 15.7 68.7 0L888 270.8l27.6-21.5-39.3-50.5-42.7 33.2z" p-id="9132" fill="#8a8a8a"></path></svg>
+                    <a href="">消息</a>
+                </li>
+                <!-- 客户服务 -->
+                <li class="help">
+                    <div class="span">
+                        <span></span>
+                    </div>
+                    <svg t="1664013257145" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="9321" width="18" height="30"><path d="M512 128c-212.1 0-384 171.9-384 384v360c0 13.3 10.7 24 24 24h184c35.3 0 64-28.7 64-64V624c0-35.3-28.7-64-64-64H200v-48c0-172.3 139.7-312 312-312s312 139.7 312 312v48H688c-35.3 0-64 28.7-64 64v208c0 35.3 28.7 64 64 64h184c13.3 0 24-10.7 24-24V512c0-212.1-171.9-384-384-384zM328 632v192H200V632h128z m496 192H696V632h128v192z" p-id="9322" fill="#8a8a8a"></path></svg>
+                    <a href="">客户服务</a>
+                    <p class="kefu"><a href="#">在线客服</a></p>
+                    <p class="help1"><a href="#">帮助中心</a></p>
+                    <!-- 下拉  -->
+                    <ul>
+                        <li>
+                            <a href="">在线客服</a>
+                        </li>
+                        <li><a href="">帮助中心</a></li>
+                    </ul>
+                </li>
+                <!-- 微信 -->
+                <li class="gzhoyo">
+                    <div class="span">
+                        <span></span>
+                    </div>
+                    <svg t="1664013524847" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="11259" width="20" height="30"><path d="M664.250054 368.541681c10.015098 0 19.892049 0.732687 29.67281 1.795902-26.647917-122.810047-159.358451-214.077703-310.826188-214.077703-169.353083 0-308.085774 114.232694-308.085774 259.274068 0 83.708494 46.165436 152.460344 123.281791 205.78483l-30.80868 91.730191 107.688651-53.455469c38.558178 7.53665 69.459978 15.308661 107.924012 15.308661 9.66308 0 19.230993-0.470721 28.752858-1.225921-6.025227-20.36584-9.521864-41.723264-9.521864-63.862493C402.328693 476.632491 517.908058 368.541681 664.250054 368.541681zM498.62897 285.87389c23.200398 0 38.557154 15.120372 38.557154 38.061874 0 22.846334-15.356756 38.156018-38.557154 38.156018-23.107277 0-46.260603-15.309684-46.260603-38.156018C452.368366 300.994262 475.522716 285.87389 498.62897 285.87389zM283.016307 362.090758c-23.107277 0-46.402843-15.309684-46.402843-38.156018 0-22.941502 23.295566-38.061874 46.402843-38.061874 23.081695 0 38.46301 15.120372 38.46301 38.061874C321.479317 346.782098 306.098002 362.090758 283.016307 362.090758zM945.448458 606.151333c0-121.888048-123.258255-221.236753-261.683954-221.236753-146.57838 0-262.015505 99.348706-262.015505 221.236753 0 122.06508 115.437126 221.200938 262.015505 221.200938 30.66644 0 61.617359-7.609305 92.423993-15.262612l84.513836 45.786813-23.178909-76.17082C899.379213 735.776599 945.448458 674.90216 945.448458 606.151333zM598.803483 567.994292c-15.332197 0-30.807656-15.096836-30.807656-30.501688 0-15.190981 15.47546-30.477129 30.807656-30.477129 23.295566 0 38.558178 15.286148 38.558178 30.477129C637.361661 552.897456 622.099049 567.994292 598.803483 567.994292zM768.25071 567.994292c-15.213493 0-30.594809-15.096836-30.594809-30.501688 0-15.190981 15.381315-30.477129 30.594809-30.477129 23.107277 0 38.558178 15.286148 38.558178 30.477129C806.808888 552.897456 791.357987 567.994292 768.25071 567.994292z" p-id="11260" fill="green"></path></svg>
+                    <a href="">关注有品</a>
+                    <!-- 下拉  -->
+                    <div class="down">
+                        <div>
+                            二维码
+                        </div>
+                    </div>
+                    <div class="erweima"><img src="images/111111.png" alt=""></div>
+                </li>
+                <li class="iphone">
+                    <div class="span">
+                        <span></span>
+                    </div>
+                    <svg t="1664013668186" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="12495" width="18" height="16"><path d="M494.75072 817.31072a42.8032 42.8032 0 1 0 42.80832-42.8032h-0.01024a42.79296 42.79296 0 0 0-42.79808 42.7776v0.0256z m-282.4192-565.1968h655.86176V308.48H212.33152V252.11392z m0 431.07328h655.86176v56.38144H212.33152v-56.38144z" p-id="12496" fill="#d81e06"></path><path d="M226.33472 764.6464V147.9424a30.3104 30.3104 0 0 1 30.21824-30.21824h562.00192a30.3104 30.3104 0 0 1 30.21824 30.21824v670.7712h56.36608V121.41056c0-33.23392-27.20256-60.43136-60.44672-60.43136H230.41024c-33.23392 0-60.43136 27.19744-60.43136 60.43136v643.23584h56.35584z" p-id="12497" fill="#d81e06"></path><path d="M848.768 742.70208v120.38144a30.31552 30.31552 0 0 1-30.21824 30.21824H256.54784a30.32064 30.32064 0 0 1-30.21824-30.21824v-120.38144H169.97888v146.9184c0 33.2288 27.19744 60.43648 60.43136 60.43648h614.28224c33.23904 0 60.44672-27.20256 60.44672-60.43648v-146.9184h-56.3712z" p-id="12498" fill="#d81e06"></path></svg>
+                    <a href="">手机版</a>
+                    <!-- 下拉  -->
+                    <div class="down">
+                        <div>
+                            二维码
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </div>  
+</div>
+ <!-- 中间  -->
+<div class="headC">
+    <!-- 版心 -->
+    <div class="center-content">
+        <!-- logo  -->
+        <h1 class="logo">
+            <a href="https://www.yohobuy.com/" class="link"></a>
+        </h1>
+        <!-- 右边输入框 -->
+        <div class="func">
+            <!-- 搜索框 -->
+            <div class="search">
+                <form action="" class="search-form">
+                    <input type="text" class="search-query">
+                    <a href="" class="search-btn"></a>
+                </form>
+                <!-- <ul class="search-hot">
+                </ul> -->
+            </div>
+            <div class="go-cart">
+                <svg t="1664197603055" class="icon" viewBox="0 0 1091 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="893" width="27" height="30"><path d="M1077.314783 190.775652c-14.914783-21.036522-39.17913-33.725217-64.779131-33.725217H364.633043c-16.584348 0-29.94087 13.57913-29.940869 30.163478s13.356522 30.163478 29.940869 30.163478h647.902609c9.238261 0 14.358261 5.787826 16.027826 8.236522 1.669565 2.448696 5.676522 9.46087 2.448696 18.031304L892.326957 630.873043a38.266435 38.266435 0 0 1-35.951305 25.377392H374.427826c-17.92 0-33.168696-12.243478-37.286956-29.606957L208.250435 77.022609A85.036522 85.036522 0 0 0 125.217391 11.130435H29.94087c-16.584348 0-29.94087 13.57913-29.94087 30.163478s13.356522 30.163478 29.94087 30.163478h95.276521c11.909565 0 22.038261 8.125217 24.709566 19.589566l129.113043 549.509565c10.573913 44.633043 49.641739 75.909565 95.387826 75.909565h481.725217c41.182609 0 78.358261-26.156522 92.271305-65.113044L1086.886957 263.791304c9.126957-24.486957 5.342609-51.756522-9.572174-73.015652zM433.753043 756.090435c-68.897391 0-124.994783 56.32-124.994782 125.328695 0 69.12 56.097391 125.328696 124.994782 125.328696s124.994783-56.32 124.994783-125.328696c0-69.12-56.097391-125.328696-124.994783-125.328695z m0 190.886956c-35.951304 0-65.113043-29.384348-65.113043-65.335652s29.161739-65.335652 65.113043-65.335652 65.113043 29.384348 65.113044 65.335652c-0.222609 35.951304-29.384348 65.335652-65.113044 65.335652z m370.977392-190.886956c-68.897391 0-124.994783 56.32-124.994783 125.328695 0 69.12 56.097391 125.328696 124.994783 125.328696s124.994783-56.32 124.994782-125.328696c0-69.12-56.097391-125.328696-124.994782-125.328695z m0 190.886956c-35.951304 0-65.113043-29.384348-65.113044-65.335652s29.161739-65.335652 65.113044-65.335652 65.113043 29.384348 65.113043 65.335652c-0.111304 35.951304-29.273043 65.335652-65.113043 65.335652zM562.532174 461.467826v-62.664348c0-16.584348-13.356522-30.163478-29.94087-30.163478s-29.94087 13.57913-29.940869 30.163478v62.664348c0 16.584348 13.356522 30.163478 29.940869 30.163478a30.208 30.208 0 0 0 29.94087-30.163478z m214.038261 0v-62.664348c0-16.584348-13.356522-30.163478-29.94087-30.163478s-29.94087 13.57913-29.940869 30.163478v62.664348c0 16.584348 13.356522 30.163478 29.940869 30.163478 16.361739-0.222609 29.94087-13.57913 29.94087-30.163478z m0 0" p-id="894" fill="#3a3a3a"></path></svg>
+            </div>
+        </div>
+</div>
+
+</div>
+<!-- 下边 -->
+<div class="headD">
+    <!-- 版心 -->
+    <div class="center-content">
+        <ul class="nav-list">
+            <li>
+                <a href="https://www.yohobuy.com/boys-new/">新品到着</a>
+            </li>
+            <li>
+                <a href="https://www.yohobuy.com/boys-new/">品牌一览</a>
+            </li>
+            <li class="fushi">
+                <a href="https://www.yohobuy.com/boys-new/">服饰</a>
+                <div id="list1">
+                    <div class="list1-center">
+                        <ul>
+                            <li><a href="" style="color: black;">上装</a></li>
+                            <li><a href="" style="color: grey;border-top: 1px solid black;">T恤</a></li>
+                            <li><a href="" style="color: red;">卫衣</a></li>
+                            <li><a href="" style="color: red;">夹克</a></li>
+                            <li><a href="" style="color: grey;">衬衫</a></li>
+                            <li><a href="" style="color: grey;">POLO</a></li>
+                            <li><a href="" style="color: grey;">防风外套</a></li>
+                            <li><a href="" style="color: black;">下装</a></li>
+                            <li><a href="" style="color: red;border-top: 1px solid black;">休闲裤</a></li>
+                        </ul>
+                        <ul>
+                            <li><a class="second" href="" style="color: grey;">牛仔裤</a></li>
+                            <li><a class="second" href="" style="color: grey;">运动裤</a></li>
+                            <li><a class="second" href="" style="color: grey;">短裤</a></li>
+                            <li><a class="second" href="" style="color: grey;">工装裤</a></li>
+                            <li><a class="second" href="" style="color: black;">热门品牌</a></li>
+                            <li><a class="second" href="" style="color: grey;border-top: 1px solid black;">Dickies</a></li>
+                            <li><a class="second" href="" style="color: grey;">Levi's</a></li>
+                            <li><a class="second" href="" style="color: grey;">DUSTY</a></li>
+                            <li><a class="second" href="" style="color: grey;">THETHINGS</a></li>
+                        </ul>
+                        <ul style="border: none;">
+                            <li><a href="" style="color: grey;line-height: 15px;">viishow</a></li>
+                            <li><a href="" style="color: red;line-height: 15px;">STORE by NIGO&reg;</a></li>
+                            <li><a href="" style="color: red;line-height: 15px;">NBA STYLE</a></li>
+                            <li><a href="" style="color: red;line-height: 15px;">鬼洗</a></li>
+                            <li><a href="" style="color: grey;line-height: 15px;">Lee</a></li>
+                            <li><a href="" style="color: red;line-height: 15px;">CHAMPION</a></li>
+                            <li><a href="" style="color: grey;line-height: 15px;">白卷BAIJUAN</a></li>
+                            <li><a href="" style="color: grey;line-height: 15px;">BOYLONDON</a></li>
+                            
+                        </ul>
+                        <div class="picture">
+                            <img src="https://img10.static.yhbimg.com/yhb-img01/2019/09/06/15/01b9fb0416a35473b24f8fd2aae06a6ec8.jpg?imageView2/2/w/337/h/250/q/90" alt="">
+                            <p>IN季新品全面开售</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="xiezi">
+                <a href="https://www.yohobuy.com/boys-new/">鞋履</a>
+                <div id="list2">
+                    <div class="list2-center">
+                        <ul>
+                            <li><a href="" style="color: black;">鞋履</a></li>
+                            <li><a href="" style="color: red;border-top: 1px solid black;">运动鞋</a></li>
+                            <li><a href="" style="color: grey;">板鞋</a></li>
+                            <li><a href="" style="color: grey;">篮球鞋</a></li>
+                            <li><a href="" style="color: red;">跑步鞋</a></li>
+                            <li><a href="" style="color: grey;">靴子</a></li>
+                            <li><a href="" style="color: black;">热门品牌</a></li>
+                            <li><a href="" style="color: black;border-top: 1px solid black;">DC</a></li>
+                            <li><a href="" style="color: grey;">CAT</a></li>
+                        </ul>
+                        <ul style="border: none;">
+                            <li><a class="second" href="" style="color: grey;line-height: 10px;">STARTER</a></li>
+                            <li><a class="second" href="" style="color: grey;line-height: 10px;">PENSOLE</a></li>
+                            <li><a class="second" href="" style="color: grey;line-height: 10px;">VEJA</a></li>
+                            <li><a class="second" href="" style="color: grey;line-height: 10px;">TRENDIANO</a></li>
+                            <li><a class="second" href="" style="color: red;line-height: 10px;">Onitsuka Tiger</a></li>
+                            
+                        </ul>
+                       
+                        <div class="picture">
+                            <img src="https://img11.static.yhbimg.com/yhb-img01/2019/09/06/15/010d8518a8d63176d49126e91801c8c8ab.jpg?imageView2/2/w/337/h/250/q/90" alt="">
+                            <p>人气鞋履</p>
+                        </div>
+                    </div>
+            </li>
+            <li>
+                <a href="https://www.yohobuy.com/boys-new/">包袋</a>
+            </li>
+            <li>
+                <a href="https://www.yohobuy.com/boys-new/">配饰·其他</a>
+            </li>
+            <li>
+                <a href="https://www.yohobuy.com/boys-new/">SALE</a>
+            </li>
+            <li>
+                <a href="https://www.yohobuy.com/boys-new/">证照/协议</a>
+            </li>
+        </ul>
+    </div>
+</div>
+</div>
+
+<!-- 定位二维码 -->
+<div id="down-box">
+    <div class="down-img"></div>
+    <h5 class="down-title">下载手机客户端</h5>
+    <div class="down-x">
+        <svg t="1664241359210" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="897" width="40" height="40"><path d="M682.346667 376.234667a10.666667 10.666667 0 0 0 0-15.082667l-30.165334-30.165333a10.666667 10.666667 0 0 0-15.082666 0L501.333333 466.752l-135.765333-135.765333a10.666667 10.666667 0 0 0-15.082667 0l-30.165333 30.165333a10.666667 10.666667 0 0 0 0 15.082667L456.085333 512l-135.765333 135.765333a10.666667 10.666667 0 0 0 0 15.082667l30.165333 30.165333a10.666667 10.666667 0 0 0 15.082667 0l135.765333-135.765333 135.765334 135.765333a10.666667 10.666667 0 0 0 15.082666 0l30.165334-30.165333a10.666667 10.666667 0 0 0 0-15.082667L546.581333 512l135.765334-135.765333z" fill="#313233" p-id="898"></path></svg>
+    </div>
+</div>
+<!-- 返回顶部事件 -->
+<div id="right-float">
+    <!-- 二维码 -->
+    <div class="qrcode-box">
+        <a class="qrcode-a" href="https://www.yohobuy.com/" target="_blank">
+            <span class="qrcode-img"></span>
+        </a>
+        <!-- 隐藏的 -->
+        <div class="down-hide">
+            <!-- 左边的 -->
+            <div class="down-hideleft">
+                <div class="hideleft-img">
+                    <img src="https://cdn.yoho.cn/yohobuy-node/6.10.6/img/layout/cover-qr-large.png?172fa78857e" alt="">
+                </div>
+                <h5 class="qr-words">微信扫一扫</h5>
+                <h5 class="qr-words">关注公众号，送球鞋</h5>
+            </div>
+            <!-- 右边的 -->
+            <div class="down-hideright">
+                <div class="hideright-img">
+                    <img src="https://cdn.yoho.cn/yohobuy-node/6.10.6/img/layout/cover-qr-large.png?172fa78857e" alt="">
+                </div>
+                <h5 class="qr-words">下载手机客户端</h5>
+                <h5 class="qr-words">
+                    <a href="">更多客户端下载</a>
+                </h5>
+            </div>
+
+        </div>
+    </div>
+    <!-- 返回顶部  -->
+    <div class="return-top">
+        <span class="top">
+            <svg t="1664243078057" class="icon-top" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7230" width="48" height="48"><path d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3c-3.8 5.3-0.1 12.7 6.5 12.7h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z" p-id="7231" fill="#ffffff"></path></svg>
+        </span>
+    </div>
+</div>
+
+
+
+    <div id="header1"> 
+        <div id="header-center">
+            <div class="swiper" id="banner">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img
+                            src="https://img10.static.yhbimg.com/yhb-img01/2022/09/28/09/016431290ddb53d132aae396110ca9c19b.jpg?imageView2/2/w/1125/h/420"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="https://img10.static.yhbimg.com/yhb-img01/2022/08/09/16/0150facf19167af5894c13c55ee248b287.jpg?imageView2/2/w/1125/h/420"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="https://img10.static.yhbimg.com/yhb-img01/2022/08/05/10/01679d091c89ae6029af6b0b4518007910.jpg?imageView2/2/w/1125/h/420"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="https://img10.static.yhbimg.com/yhb-img01/2022/07/15/17/01fe44d1cb4ef34a9ff78d8df805075b58.jpg?imageView2/2/w/1125/h/420"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="https://img10.static.yhbimg.com/yhb-img01/2022/07/15/14/0183d5a717f1a5ea4ae5fcea869115f247.jpg?imageView2/2/w/1125/h/420"
+                            alt=""></div>
+                </div>
+                <!-- 如果需要导航按钮 -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-next"></div>
+                <!-- <div class="swiper-pagination"></div> -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+    <div id="main">
+        <div id="main-center">
+            <div class="top">
+                <h2 class="text">人气单品</h2>
+            </div>
+            <ul class="button">
+                <li class="img1"><img
+                        src="https://img10.static.yhbimg.com/yhb-img01/2021/08/25/17/01de719e2c7f7bc30e22e50cac2967d8db.jpg?imageView2/2/w/185/h/248"
+                        alt=""></li>
+                <li class="img2"><img
+                        src="https://img11.static.yhbimg.com/yhb-img01/2020/10/09/14/01cc173da1cd66e96aa9c49d54384517f4.jpg?imageView2/2/w/378/h/248"
+                        alt=""></li>
+                <li class="img1"><img
+                        src="https://img11.static.yhbimg.com/yhb-img01/2022/04/07/10/017f32845c6a211d95e302a2fc1aac32b7.jpg?imageView2/2/w/185/h/248"
+                        alt=""></li>
+                <li class="img1"><img
+                        src="https://img11.static.yhbimg.com/yhb-img01/2021/11/08/16/01444a1f80530b49cc0e80912770e9b1ad.jpg?imageView2/2/w/185/h/248"
+                        alt=""></li>
+                <li class="img1"><img
+                        src="https://img11.static.yhbimg.com/yhb-img01/2021/11/08/16/01e16986f5518f03291f2fc103ff7a41e3.jpg?imageView2/2/w/185/h/248"
+                        alt=""></li>
+                <li class="img1"><img
+                        src="https://img10.static.yhbimg.com/yhb-img01/2021/11/08/16/017aaff497fe80bc93c14cd484bab3ad67.jpg?imageView2/2/w/185/h/248"
+                        alt=""></li>
+                <li class="img1"><img
+                        src="https://img10.static.yhbimg.com/yhb-img01/2022/04/07/10/010b96dca35db009b1f2f74f7c5c03cc14.jpg?imageView2/2/w/185/h/248"
+                        alt=""></li>
+                <li class="img1"><img
+                        src="https://img11.static.yhbimg.com/yhb-img01/2021/08/25/11/01c05d31e2f138f65d135a77b2de0ff26c.jpg?imageView2/2/w/185/h/248"
+                        alt=""></li>
+                <li class="img1"><img
+                        src="https://img11.static.yhbimg.com/yhb-img01/2021/08/18/14/01817fa205c794c7ddb5ff9164ee677d34.jpg?imageView2/2/w/185/h/248"
+                        alt=""></li>
+                <li class="img2"><img
+                        src="https://img10.static.yhbimg.com/yhb-img01/2020/08/13/15/0169431db00fc5d117778b977d136e4dde.jpg?imageView2/2/w/378/h/248"
+                        alt=""></li>
+            </ul>
+        </div>
+    </div>
+    <div id="main1">
+        <div id="main1-center">
+            <div class="top">
+                <h2 class="text">优选品牌</h2>
+            </div>
+            <div class="button">
+                <div class="swiper button" id="order">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img
+                                src="https://img11.static.yhbimg.com/yhb-img01/2020/07/02/18/01c38b68bd717ee7cd3448ba909c45c48e.jpg?imageView2/2/w/378/h/175"
+                                alt=""></div>
+                        <div class="swiper-slide img1"><img
+                                src="https://img11.static.yhbimg.com/yhb-img01/2020/07/02/18/01848a3e86061e9a1fa45ca1387ff639a9.jpg?imageView2/2/w/378/h/175"
+                                alt=""></div>
+                        <div class="swiper-slide"><img
+                                src="https://img10.static.yhbimg.com/yhb-img01/2020/07/23/10/01f79a88e1226204d97d92a81676ca3b6a.jpg?imageView2/2/w/378/h/175"
+                                alt=""></div>
+                        <div class="swiper-slide"><img
+                                src="https://img10.static.yhbimg.com/yhb-img01/2020/07/07/10/01ae3e7bccba709ad3e06c4cfc7ab7ef5f.jpg?imageView2/2/w/378/h/175"
+                                alt=""></div>
+                        <div class="swiper-slide img1"><img
+                                src="https://img11.static.yhbimg.com/yhb-img01/2020/07/23/10/01a9a9b84e46555c5344d1503dad60ab07.jpg?imageView2/2/w/378/h/175"
+                                alt=""></div>
+                        <div class="swiper-slide"><img
+                                src="https://img11.static.yhbimg.com/yhb-img01/2020/07/02/18/019716657763c7d01a45f6208ca52329a7.jpg?imageView2/2/w/378/h/175"
+                                alt=""></div>
+                    </div>
+                    <!-- 如果需要导航按钮 -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <ul class="tp">
+                    <li><img src="https://img11.static.yhbimg.com/yhb-img01/2020/07/23/10/019fd25794d5c567a2f377eee87044b4c4.jpg?imageView2/2/w/185/h/86/q/90"
+                            alt=""></li>
+                    <li><img src="https://img11.static.yhbimg.com/yhb-img01/2021/08/31/11/019335934dc4214be982f08d8ea89a015a.jpg?imageView2/2/w/185/h/86/q/90"
+                            alt=""></li>
+                    <li><img src="https://img11.static.yhbimg.com/yhb-img01/2019/11/20/14/01142c35cd3c415c6dd2d443ddb7c36f22.jpg?imageView2/2/w/185/h/86/q/90"
+                            alt=""></li>
+                    <li><img src="https://img11.static.yhbimg.com/yhb-img01/2020/07/16/10/01619a091bf36f6afeb001ce13cb7713a1.jpg?imageView2/2/w/185/h/86/q/90"
+                            alt=""></li>
+                    <li><img src="https://img11.static.yhbimg.com/yhb-img01/2021/08/31/11/01bc1824e594ae210a040fda4cd522add4.jpg?imageView2/2/w/185/h/86/q/90"
+                            alt=""></li>
+                    <li><img src="images/1.png" alt=""></li>
+                    <li><img src="https://img11.static.yhbimg.com/yhb-img01/2021/08/31/11/019335934dc4214be982f08d8ea89a015a.jpg?imageView2/2/w/185/h/86/q/90"
+                            alt=""></li>
+                    <li><img src="https://img11.static.yhbimg.com/yhb-img01/2021/09/15/10/01b216c61b7151cdac7ec74552f53036dc.jpg?imageView2/2/w/185/h/86/q/90"
+                            alt=""></li>
+                    <li><img src="https://img11.static.yhbimg.com/yhb-img01/2020/07/23/10/01bdd6408033ea7a6c8c2c780d11c454ec.jpg?imageView2/2/w/185/h/86/q/90"
+                            alt=""></li>
+                    <li><img src="https://img11.static.yhbimg.com/yhb-img01/2019/10/23/13/01479c16a1ce7a8bb77cdf581054ad2855.jpg?imageView2/2/w/185/h/86/q/90"
+                            alt=""></li>
+                    <li><img src="https://img11.static.yhbimg.com/yhb-img01/2020/03/31/14/01d5e422f98fc155916f04b6e00b721d23.jpg?imageView2/2/w/185/h/86/q/90"
+                            alt=""></li>
+                    <li><img src="https://img10.static.yhbimg.com/yhb-img01/2021/08/25/17/01daa236d4f4dd6a844104149914630308.jpg?imageView2/2/w/185/h/86/q/90"
+                            alt=""></li>
+                    <li><img src="https://img11.static.yhbimg.com/yhb-img01/2021/09/18/14/01d1c52d95d37c00ae5c74a5f483250680.jpg?imageView2/2/w/185/h/86/q/90"
+                            alt=""></li>
+                    <li><img src="https://img11.static.yhbimg.com/yhb-img01/2020/07/23/10/0197b17f67a2d130a01382fbab1ff95722.jpg?imageView2/2/w/185/h/86/q/90"
+                            alt=""></li>
+                    <li><img src="https://img11.static.yhbimg.com/yhb-img01/2021/09/15/10/01a27b044e4c7afb8c193cb6f8ba1d8d8e.jpg?imageView2/2/w/185/h/86/q/90"
+                            alt=""></li>
+                    <li><img src="https://img10.static.yhbimg.com/yhb-img01/2020/04/29/11/012d2c2119a4a7dac2458a89f219cab498.jpg?imageView2/2/w/185/h/86/q/90"
+                            alt=""></li>
+                    <li><img src="https://img10.static.yhbimg.com/yhb-img01/2020/11/19/09/01807444b970eeee7283b5deda55480526.jpg?imageView2/2/w/185/h/86/q/90"
+                            alt=""></li>
+                    <li><a href="yohobuy.com/brands?gender=1,3">MORE></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="main2">
+        <div id="main2-center">
+            <div class="top">
+                <h2>潮流上装</h2>
+                <div class="text">
+                    <a target="_blank" href="https://www.yohobuy.com/list/ci5-gd1.html">MORE</a>
+                </div>
+            </div>
+            <div class="button">
+                <div class="two-pic">
+                    <div class="pic-top"><img
+                            src="https://img11.static.yhbimg.com/yhb-img01/2019/03/25/11/017be7cc88b521b7ebbcd6a71f4349eb7b.jpg?imageView2/2/w/185/h/152"
+                            alt=""></div>
+                    <div class="button"><img
+                            src="https://img10.static.yhbimg.com/yhb-img01/2021/06/17/11/01082eabf81c3cdc7d45cb3a3356e7ba22.jpg?imageView2/2/w/185/h/152"
+                            alt=""></div>
+
+                </div>
+                <div class="tp1"><img
+                        src="https://img11.static.yhbimg.com/yhb-img01/2020/09/17/14/01782bdb5d805a74477ae2327e9b8c1b79.jpg?imageView2/2/w/378/h/248"
+                        alt=""></div>
+                <div class="tp2"><img
+                        src="https://img10.static.yhbimg.com/yhb-img01/2021/06/17/12/018d079f522b7f91490f644a4fd3fad0cd.jpg?imageView2/2/w/185/h/248"
+                        alt=""></div>
+                <div class="tp2"><img
+                        src="https://img11.static.yhbimg.com/yhb-img01/2021/06/17/12/01c48b086100ffc04d8057b370b384107b.jpg?imageView2/2/w/185/h/248"
+                        alt=""></div>
+                <div class="tp2"><img
+                        src="https://img11.static.yhbimg.com/yhb-img01/2021/06/17/12/01b2e897b4939e14f87bbdb230bac08320.jpg?imageView2/2/w/185/h/248"
+                        alt=""></div>
+                <div class="text">
+                    <a href="https://www.yohobuy.com/list/ci45-gd1.html">T恤</a>
+                    <a href="javascrpit:;">卫衣</a>
+                    <a href="javascrpit:;">夹克</a>
+                    <a href="javascrpit:;">衬衫</a>
+                    <a href="javascrpit:;">POLO</a>
+                    <a href="javascrpit:;">风衣</a>
+                    <a href="javascrpit:;">PUMA</a>
+                    <a href="javascrpit:;">DC</a>
+                    <a href="javascrpit:;">Timberland</a>
+                    <a href="javascrpit:;">Converse</a>
+                    <a href="javascrpit:;">VANS</a>
+                    <a href="javascrpit:;">HIPANDA</a>
+                </div>
+                <div class="tp1"><img
+                        src="https://img11.static.yhbimg.com/yhb-img01/2020/03/03/13/01e4df7a7de86c3448d1c23cc34ecc3d7c.jpg?imageView2/2/w/378/h/248"
+                        alt=""></div>
+                <div class="tp2"><img
+                        src="https://img11.static.yhbimg.com/yhb-img01/2021/06/17/12/01e50ed042c9b370f499c2e8d95cea9361.jpg?imageView2/2/w/185/h/248"
+                        alt=""></div>
+                <div class="tp2"><img
+                        src="https://img11.static.yhbimg.com/yhb-img01/2020/07/23/10/0163c96fae4ba21802764c24da9d4a51ef.jpg?imageView2/2/w/185/h/248"
+                        alt=""></div>
+                <div class="tp2"><img
+                        src="https://img11.static.yhbimg.com/yhb-img01/2021/06/17/12/015940559204e1886bb5ff58b8459ac6c9.jpg?imageView2/2/w/185/h/248"
+                        alt=""></div>
+                <ul class="tp3">
+                    <li class="tptp"><img
+                            src="https://img11.static.yhbimg.com/yhb-img01/2020/09/17/15/012f629609ed95ac3cc4ba4afdeaf7be95.jpg?imageView2/2/w/222/h/298"
+                            alt=""></li>
+                    <li class="tptp"><img
+                            src="https://img10.static.yhbimg.com/yhb-img01/2020/09/17/15/01a056dcc75183db758e26bce139025c1f.jpg?imageView2/2/w/222/h/298"
+                            alt=""></li>
+                    <li class="tptp"><img
+                            src="https://img10.static.yhbimg.com/yhb-img01/2020/09/17/15/01c4b4108b6c090f92f352c32ed8494cf1.jpg?imageView2/2/w/222/h/298"
+                            alt=""></li>
+                    <li class="tptp"><img
+                            src="https://img11.static.yhbimg.com/yhb-img01/2020/09/17/15/01e06d70fa91687464472c6ba54e2fc735.jpg?imageView2/2/w/222/h/298"
+                            alt=""></li>
+                    <li class="tptp"><img
+                            src="https://img11.static.yhbimg.com/yhb-img01/2020/09/17/15/0135217f404c9c5d8c0ea0f91267f72183.jpg?imageView2/2/w/222/h/298"
+                            alt=""></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div id="main2" class="main3">
+        <div id="main2-center">
+            <div class="top">
+                <h2>潮流上装</h2>
+                <div class="text">
+                    <a target="_blank" href="https://www.yohobuy.com/list/ci5-gd1.html">MORE</a>
+                </div>
+            </div>
+            <div class="button">
+                <div class="two-pic">
+                    <div class="pic-top"><img
+                            src="https://img11.static.yhbimg.com/yhb-img01/2019/03/25/11/013eb545806c6c4b7acb8b4ba4455bb176.jpg?imageView2/2/w/185/h/152"
+                            alt=""></div>
+                    <div class="button"><img
+                            src="https://img10.static.yhbimg.com/yhb-img01/2020/10/27/17/01759e0d4d59f8fdcf2d99e4609d66767e.jpg?imageView2/2/w/185/h/152"
+                            alt=""></div>
+
+                </div>
+                <div class="tp1"><img
+                        src="https://img10.static.yhbimg.com/yhb-img01/2020/03/03/13/0198ba29d1ff4749f09c810943b86da321.jpg?imageView2/2/w/378/h/248"
+                        alt=""></div>
+                <div class="tp2"><img
+                        src="https://img10.static.yhbimg.com/yhb-img01/2020/04/29/11/015c206a6238bdc4e65f6b45e5c40e941d.jpg?imageView2/2/w/185/h/248"
+                        alt=""></div>
+                <div class="tp2"><img
+                        src="https://img10.static.yhbimg.com/yhb-img01/2020/07/03/10/01e766ef3241a6821e738dcc9b1018d075.jpg?imageView2/2/w/185/h/248"
+                        alt=""></div>
+                <div class="tp2"><img
+                        src="https://img11.static.yhbimg.com/yhb-img01/2020/07/23/10/01d39458b45f61c96ee7812fd79d9f7dac.jpg?imageView2/2/w/185/h/248"
+                        alt=""></div>
+                <div class="text">
+                    <a href="javascrpit:;">休闲裤</a>
+                    <a href="javascrpit:;">牛仔裤</a>
+                    <a href="javascrpit:;">运动裤</a>
+                    <a href="javascrpit:;">工装裤</a>
+                    <a href="javascrpit:;">束口裤</a>
+                    <a href="javascrpit:;">短裤</a>
+                    <a href="javascrpit:;">Lee</a>
+                    <a href="javascrpit:;">鬼洗</a>
+                    <a href="javascrpit:;">Dickies</a>
+                    <a href="javascrpit:;">DUSTY</a>
+                    <a href="javascrpit:;">Levi's</a>
+                    <a href="javascrpit:;">THETHIMG</a>
+                </div>
+                <div class="tp1"><img
+                        src="https://img10.static.yhbimg.com/yhb-img01/2020/03/03/13/017311aa9f1befb8ec79a65a4621e8d882.jpg?imageView2/2/w/378/h/248"
+                        alt=""></div>
+                <div class="tp2"><img
+                        src="https://img11.static.yhbimg.com/yhb-img01/2020/04/29/11/0135997eb374101d08ac388ce6671350cb.jpg?imageView2/2/w/185/h/248"
+                        alt=""></div>
+                <div class="tp2"><img
+                        src="https://img11.static.yhbimg.com/yhb-img01/2020/04/29/11/010aa1efb21aed638f2cff8a04e165d837.jpg?imageView2/2/w/185/h/248"
+                        alt=""></div>
+                <div class="tp2"><img
+                        src="https://img11.static.yhbimg.com/yhb-img01/2020/04/29/11/010d23c5669702d97c81a1a76c0d264665.jpg?imageView2/2/w/185/h/248"
+                        alt=""></div>
+                <ul class="tp3">
+                    <li class="tptp"><img
+                            src="https://img10.static.yhbimg.com/yhb-img01/2020/04/29/11/0153d1bf58e1e10ebd6b96e2b9b110476d.jpg?imageView2/2/w/222/h/298"
+                            alt=""></li>
+                    <li class="tptp"><img
+                            src="https://img11.static.yhbimg.com/yhb-img01/2020/04/29/11/0174b2d300d3df04535b00f08ed9e30cab.jpg?imageView2/2/w/222/h/298"
+                            alt=""></li>
+                    <li class="tptp"><img
+                            src="https://img11.static.yhbimg.com/yhb-img01/2020/04/29/11/01ce4e4023249c8b5bfc0057f56abefe1e.jpg?imageView2/2/w/222/h/298"
+                            alt=""></li>
+                    <li class="tptp"><img
+                            src="https://img11.static.yhbimg.com/yhb-img01/2020/04/29/11/01e8037abe8cc8387b709b0aedea228873.jpg?imageView2/2/w/222/h/298"
+                            alt=""></li>
+                    <li class="tptp"><img
+                            src="https://img10.static.yhbimg.com/yhb-img01/2020/04/29/11/01586d76b24dfee4d5d5ed6555d42b54cf.jpg?imageView2/2/w/222/h/298"
+                            alt=""></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="main2" class="main3">
+        <div id="main2-center">
+            <div class="top">
+                <h2>潮流上装</h2>
+                <div class="text">
+                    <a target="_blank" href="https://www.yohobuy.com/list/ci5-gd1.html">MORE</a>
+                </div>
+            </div>
+            <div class="button">
+                <div class="two-pic">
+                    <div class="pic-top"><img
+                            src="https://img10.static.yhbimg.com/yhb-img01/2019/03/25/11/01027a0c6ba18c415ba5c85c9e5eaee985.jpg?imageView2/2/w/185/h/152"
+                            alt=""></div>
+                    <div class="button"><img
+                            src="https://img11.static.yhbimg.com/yhb-img01/2020/10/27/17/01b9c2766eff7e5d632ce2e9d1b2f30686.jpg?imageView2/2/w/185/h/152"
+                            alt=""></div>
+
+                </div>
+                <div class="tp1"><img
+                        src="https://img11.static.yhbimg.com/yhb-img01/2020/03/03/14/013fff0bebe8a49cceb41082b5f350de60.jpg?imageView2/2/w/378/h/248"
+                        alt=""></div>
+                <div class="tp2"><img
+                        src="https://img10.static.yhbimg.com/yhb-img01/2020/07/23/10/011b75a17b69e16333e41572037f06ce1b.jpg?imageView2/2/w/185/h/248"
+                        alt=""></div>
+                <div class="tp2"><img
+                        src="https://img11.static.yhbimg.com/yhb-img01/2020/06/28/10/0192245a4c91a7a515aebf5ee114859736.jpg?imageView2/2/w/185/h/248"
+                        alt=""></div>
+                <div class="tp2"><img
+                        src="https://img10.static.yhbimg.com/yhb-img01/2020/06/28/10/01c32fc3faf0186675c97ba2f1db0a0e3a.jpg?imageView2/2/w/185/h/248"
+                        alt=""></div>
+                <div class="text">
+                    <a href="javascrpit:;">运动鞋</a>
+                    <a href="javascrpit:;">板鞋</a>
+                    <a href="javascrpit:;">运动跑鞋</a>
+                    <a href="javascrpit:;">篮球鞋</a>
+                    <a href="javascrpit:;">靴子</a>
+                    <a href="javascrpit:;">休闲/时装鞋</a>
+                    <a href="javascrpit:;">Reebok</a>
+                    <a href="javascrpit:;">COMMON</a>
+                    <a href="javascrpit:;">VEJA</a>
+                    <a href="javascrpit:;">MATNUT</a>
+                    <a href="javascrpit:;">LI-NING</a>
+                    <a href="javascrpit:;">adidas</a>
+                </div>
+                <div class="tp1"><img
+                        src="https://img11.static.yhbimg.com/yhb-img01/2020/03/03/14/018a29233c38c6f01ef4321f478f9ca58f.jpg?imageView2/2/w/378/h/248"
+                        alt=""></div>
+                <div class="tp2"><img
+                        src="https://img11.static.yhbimg.com/yhb-img01/2020/04/29/11/0176facf4fa74a833fd6c5e242f497024a.jpg?imageView2/2/w/185/h/248"
+                        alt=""></div>
+                <div class="tp2"><img
+                        src="https://img10.static.yhbimg.com/yhb-img01/2020/07/03/10/019e01b6c12e8425c2246993b4b1c9b3a3.jpg?imageView2/2/w/185/h/248"
+                        alt=""></div>
+                <div class="tp2"><img
+                        src="https://img10.static.yhbimg.com/yhb-img01/2020/07/16/10/0190436cbf165ef49d3e017f4aebdd6f28.jpg?imageView2/2/w/185/h/248"
+                        alt=""></div>
+                <ul class="tp3">
+                    <li class="tptp"><img
+                            src="https://img11.static.yhbimg.com/yhb-img01/2020/07/03/10/01765da920a312d21f5222b39453f64b49.jpg?imageView2/2/w/222/h/298"
+                            alt=""></li>
+                    <li class="tptp"><img
+                            src="https://img11.static.yhbimg.com/yhb-img01/2020/07/03/10/01e336f2a0ac34addaec957c62d82531f8.jpg?imageView2/2/w/222/h/298"
+                            alt=""></li>
+                    <li class="tptp"><img
+                            src="https://img11.static.yhbimg.com/yhb-img01/2020/07/03/10/016074c1990b8f0639b5fd675316c5a31b.jpg?imageView2/2/w/222/h/298"
+                            alt=""></li>
+                    <li class="tptp"><img
+                            src="https://img11.static.yhbimg.com/yhb-img01/2020/07/03/10/01c54a0b864508085a32454a23b3abdf8f.jpg?imageView2/2/w/222/h/298"
+                            alt=""></li>
+                    <li class="tptp"><img
+                            src="https://img11.static.yhbimg.com/yhb-img01/2020/07/03/10/01b0757dfd57dec12a4e139cba5c16c2c8.jpg?imageView2/2/w/222/h/298"
+                            alt=""></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="main2" class="main3">
+        <div id="main2-center">
+            <div class="top">
+                <h2>潮流上装</h2>
+                <div class="text">
+                    <a target="_blank" href="https://www.yohobuy.com/list/ci5-gd1.html">MORE</a>
+                </div>
+            </div>
+            <div class="button">
+                <div class="two-pic">
+                    <div class="pic-top"><img
+                            src="https://img10.static.yhbimg.com/yhb-img01/2019/03/25/11/0117975cd30f5449efeac4d4b2f5824dbb.jpg?imageView2/2/w/185/h/152"
+                            alt=""></div>
+                    <div class="button"><img
+                            src="https://img10.static.yhbimg.com/yhb-img01/2020/08/13/15/01b825491ab8fd376d71b8f96a0d0a0ef9.jpg?imageView2/2/w/185/h/152"
+                            alt=""></div>
+
+                </div>
+                <div class="tp1"><img
+                        src="https://img11.static.yhbimg.com/yhb-img01/2020/03/03/14/014ea793fd387c4965adaf5c41502a1bcb.jpg?imageView2/2/w/378/h/248"
+                        alt=""></div>
+                <div class="tp2"><img
+                        src="https://img10.static.yhbimg.com/yhb-img01/2020/07/03/10/01e645dd9b89e9dfd0aef4fd369a5680e1.jpg?imageView2/2/w/185/h/248"
+                        alt=""></div>
+                <div class="tp2"><img
+                        src="https://img10.static.yhbimg.com/yhb-img01/2020/04/29/11/011ccbf0003abdaa4cf2ed5362fdabb634.jpg?imageView2/2/w/185/h/248"
+                        alt=""></div>
+                <div class="tp2"><img
+                        src="https://img10.static.yhbimg.com/yhb-img01/2020/04/29/11/0123a962e180788e343f5d4c846ae95f86.jpg?imageView2/2/w/185/h/248"
+                        alt=""></div>
+                <div class="text">
+                    <a href="javascrpit:;">单肩包</a>
+                    <a href="javascrpit:;">双肩包</a>
+                    <a href="javascrpit:;">腰包/胸包</a>
+                    <a href="javascrpit:;">钱包/卡包</a>
+                    <a href="javascrpit:;">旅行箱</a>
+                    <a href="javascrpit:;">邮差包</a>
+                    <a href="javascrpit:;">帽子</a>
+                    <a href="javascrpit:;">袜子</a>
+                    <a href="javascrpit:;">首饰</a>
+                    <a href="javascrpit:;">配饰</a>
+                    <a href="javascrpit:;">手表</a>
+                    <a href="javascrpit:;">太阳镜/眼镜</a>
+                </div>
+                <div class="tp1"><img
+                        src="https://img10.static.yhbimg.com/yhb-img01/2020/03/03/14/0195633b501c21fd269899e6d78ba944e3.jpg?imageView2/2/w/378/h/248"
+                        alt=""></div>
+                <div class="tp2"><img
+                        src="https://img10.static.yhbimg.com/yhb-img01/2020/03/03/14/01acff620ce265a6da92c8140181591809.jpg?imageView2/2/w/185/h/248"
+                        alt=""></div>
+                <div class="tp2"><img
+                        src="https://img10.static.yhbimg.com/yhb-img01/2020/03/03/14/01719d6668b278cf81a252ddef670977cb.jpg?imageView2/2/w/185/h/248"
+                        alt=""></div>
+                <div class="tp2"><img
+                        src="https://img10.static.yhbimg.com/yhb-img01/2020/03/03/14/0142aefe69791531a0d155913866272284.jpg?imageView2/2/w/185/h/248"
+                        alt=""></div>
+                <ul class="tp3">
+                    <li class="tptp"><img
+                            src="https://img11.static.yhbimg.com/yhb-img01/2020/04/29/11/01117b89c988b5cf1404ed283b32da5794.jpg?imageView2/2/w/222/h/298"
+                            alt=""></li>
+                    <li class="tptp"><img
+                            src="https://img10.static.yhbimg.com/yhb-img01/2020/04/29/11/01e83614b4f0790a47eec068606b5c5555.jpg?imageView2/2/w/222/h/298"
+                            alt=""></li>
+                    <li class="tptp"><img
+                            src="https://img11.static.yhbimg.com/yhb-img01/2020/03/31/17/0186026946568154a918b1d003c80f53d2.jpg?imageView2/2/w/222/h/298"
+                            alt=""></li>
+                    <li class="tptp"><img
+                            src="https://img10.static.yhbimg.com/yhb-img01/2020/03/03/14/01917ce7cf0abf1b44105ae54406df7a5e.jpg?imageView2/2/w/222/h/298"
+                            alt=""></li>
+                    <li class="tptp"><img
+                            src="https://img11.static.yhbimg.com/yhb-img01/2020/04/29/11/0150024a21dadbdde8a2e5b498ea5e18e5.jpg?imageView2/2/w/222/h/298"
+                            alt=""></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div id="footer">
+        <div id="footer-center">
+            <div class="top">
+                <h2>新品上架</h2>
+                <div class="text">
+                    <a target="_blank" href="https://www.yohobuy.com/list/ci5-gd1.html">MORE</a>
+                </div>
+            </div>
+            <div class="button">
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img11.static.yhbimg.com/goodsimg/2022/08/04/16/01497af48764bbda6236df0f00849ea29e.jpg?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">虾闹240g纯棉大码卡通印刷宽松落肩</a></p>
+                        <p class="place">￥159.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img13.static.yhbimg.com/goodsimg/2022/08/22/14/021c99735214ae69041a2df492ff3cb302.jpg?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">虾闹240g纯棉大码卡通印刷宽松落肩</a></p>
+                        <p class="place">￥159.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img12.static.yhbimg.com/goodsimg/2022/08/17/17/02043e1547582d0c89e3808ff51bf34848.jpg?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">虾闹240g纯棉大码卡通印刷宽松落肩</a></p>
+                        <p class="place">￥159.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img12.static.yhbimg.com/goodsimg/2022/08/11/16/02e9242e16eb7a83234affd23cb33d723a.jpg?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">HEIPAR/嘿帕 个性印花短信T恤</a></p>
+                        <p class="place">￥79.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img10.static.yhbimg.com/goodsimg/2022/07/28/10/0117c2f75922f71617a501222d86e35884.jpg?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">COKEIN 纯色简约基础款内搭长袖T恤</a></p>
+                        <p class="place">￥117.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img12.static.yhbimg.com/goodsimg/2022/08/12/11/02173981d1653ec7fe84344be40d403d14.jpg?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">OWNREWARDS 新款国潮大码200g</a></p>
+                        <p class="place">￥139.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img12.static.yhbimg.com/goodsimg/2021/12/23/09/024fac8561aa0426c4ef6c0dcca06073f2.jpg?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">POHK 胸前口袋枪手印花T恤</a></p>
+                        <p class="place">￥149.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img10.static.yhbimg.com/goodsimg/2022/08/08/17/01d3359513bde6df97ca1b2765fff9c9cf.jpg?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">虾闹240g纯棉大码卡通印刷宽松落肩</a></p>
+                        <p class="place">￥159.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img13.static.yhbimg.com/goodsimg/2022/09/20/13/02ba8320b31531254cdb48050008d29a3f.jpg?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">虾闹240g纯棉大码卡通印刷宽松落肩</a></p>
+                        <p class="place">￥159.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img10.static.yhbimg.com/goodsimg/2022/08/25/10/01145c3737f0e5afbdd2dfea01bcc7f617.jpg?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">虾闹240g纯棉大码卡通印刷宽松落肩</a></p>
+                        <p class="place">￥159.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img10.static.yhbimg.com/goodsimg/2022/08/08/14/0189ff86c00ff49cabe05c55cde5629619.jpg?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">虾闹240g纯棉大码卡通印刷宽松落肩</a></p>
+                        <p class="place">￥159.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img11.static.yhbimg.com/goodsimg/2022/08/12/14/01dd7aee4533ba571abd6ca27e1e8b3341.jpg?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">虾闹240g纯棉大码卡通印刷宽松落肩</a></p>
+                        <p class="place">￥159.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img13.static.yhbimg.com/goodsimg/2022/08/10/15/02d6a6b4c0fef57b61878d08a51a76ae4a.jpg?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">虾闹240g纯棉大码卡通印刷宽松落肩</a></p>
+                        <p class="place">￥159.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img11.static.yhbimg.com/goodsimg/2022/08/11/16/0194899d385326a357242ff71c1afd13c6.jpg?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">虾闹240g纯棉大码卡通印刷宽松落肩</a></p>
+                        <p class="place">￥159.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img12.static.yhbimg.com/goodsimg/2022/08/26/15/024484298eb80b43b3e33ead19af542ed0.jpg?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">虾闹240g纯棉大码卡通印刷宽松落肩</a></p>
+                        <p class="place">￥159.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img13.static.yhbimg.com/goodsimg/2022/07/25/16/022a393434792c39e19b9747a0a7187eb2.jpg?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">虾闹240g纯棉大码卡通印刷宽松落肩</a></p>
+                        <p class="place">￥159.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img10.static.yhbimg.com/goodsimg/2022/08/08/15/0111b619849c9310cc9d6f0c9c5bf629ea.jpg?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">虾闹240g纯棉大码卡通印刷宽松落肩</a></p>
+                        <p class="place">￥159.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img13.static.yhbimg.com/goodsimg/2022/08/08/13/024435796ad136ac736629c481bb128de6.gif?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">虾闹240g纯棉大码卡通印刷宽松落肩</a></p>
+                        <p class="place">￥159.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img11.static.yhbimg.com/goodsimg/2022/08/25/10/018ad2b7cbd0cbbe52ae7fc1213e84ed9e.jpg?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">虾闹240g纯棉大码卡通印刷宽松落肩</a></p>
+                        <p class="place">￥159.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img11.static.yhbimg.com/goodsimg/2022/08/10/16/018d212662868eaf1c25feaa0a9132a891.jpg?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">虾闹240g纯棉大码卡通印刷宽松落肩</a></p>
+                        <p class="place">￥159.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img11.static.yhbimg.com/goodsimg/2022/08/12/10/012074b83b3b006efc2e12700f217702b8.jpg?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">虾闹240g纯棉大码卡通印刷宽松落肩</a></p>
+                        <p class="place">￥159.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img11.static.yhbimg.com/goodsimg/2022/08/29/14/014161795f344116d7007b165276c0dd80.jpg?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">虾闹240g纯棉大码卡通印刷宽松落肩</a></p>
+                        <p class="place">￥159.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img11.static.yhbimg.com/goodsimg/2022/08/17/10/01b27e03253544749060480f9c42f5971c.gif?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">虾闹240g纯棉大码卡通印刷宽松落肩</a></p>
+                        <p class="place">￥159.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img11.static.yhbimg.com/goodsimg/2022/08/08/14/01015d8cd8e7b69cd0adc14f34d9282cb0.jpg?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">虾闹240g纯棉大码卡通印刷宽松落肩</a></p>
+                        <p class="place">￥159.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img12.static.yhbimg.com/goodsimg/2022/08/09/10/025cc0bdab476a52c915e183e2ff670af4.gif?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">虾闹240g纯棉大码卡通印刷宽松落肩</a></p>
+                        <p class="place">￥159.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img11.static.yhbimg.com/goodsimg/2022/08/08/15/01634366be9dfc34dfd19b89eb5fc0e530.jpg?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">虾闹240g纯棉大码卡通印刷宽松落肩</a></p>
+                        <p class="place">￥159.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img11.static.yhbimg.com/goodsimg/2022/08/25/17/0133f251b229e8abf6f082a7dbf1090bca.jpg?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">虾闹240g纯棉大码卡通印刷宽松落肩</a></p>
+                        <p class="place">￥159.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img11.static.yhbimg.com/goodsimg/2022/08/12/13/01c3937024ce50427c32b669a126d89441.jpg?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">虾闹240g纯棉大码卡通印刷宽松落肩</a></p>
+                        <p class="place">￥159.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img10.static.yhbimg.com/goodsimg/2022/08/08/16/01542b3da2dea2d731338f30ef4ccc9549.jpg?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">虾闹240g纯棉大码卡通印刷宽松落肩</a></p>
+                        <p class="place">￥159.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img11.static.yhbimg.com/goodsimg/2022/08/25/11/01b1dea5b8eb5c00cc22beba69885eb8af.jpg?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">虾闹240g纯棉大码卡通印刷宽松落肩</a></p>
+                        <p class="place">￥159.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img12.static.yhbimg.com/goodsimg/2022/03/30/09/02a49c5158681e4bac93e0f452693dc821.jpg?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">虾闹240g纯棉大码卡通印刷宽松落肩</a></p>
+                        <p class="place">￥159.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img10.static.yhbimg.com/goodsimg/2022/08/08/14/010523198e4f6d9202943e7eb04a8c17a6.jpg?imageMogr2/thumbnail/280x373/background/d2hpdGU=/position/center/quality/90"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">虾闹240g纯棉大码卡通印刷宽松落肩</a></p>
+                        <p class="place">￥159.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img13.static.yhbimg.com/goodsimg/2022/09/20/13/029837f11acbf25f0ede8fe1dbe61c90a8.jpg?imageMogr2/thumbnail/280x382/background/d2hpdGU=/position/center/quality/80"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">虾闹240g纯棉大码卡通印刷宽松落肩</a></p>
+                        <p class="place">￥159.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img11.static.yhbimg.com/goodsimg/2022/09/05/14/01c6d278f3e5797c202066a3f94b7edf2b.jpg?imageMogr2/thumbnail/280x382/background/d2hpdGU=/position/center/quality/80"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">虾闹240g纯棉大码卡通印刷宽松落肩</a></p>
+                        <p class="place">￥159.00</p>
+                    </div>
+                </div>
+                <div class="big-pic">
+                    <div class="top-tp"><img
+                            src="https://img13.static.yhbimg.com/goodsimg/2022/09/05/14/020b1e1aff9569cbd14c19798b036deda8.jpg?imageMogr2/thumbnail/280x382/background/d2hpdGU=/position/center/quality/80"
+                            alt=""></div>
+                    <div class="button-tp">
+                        <p class="aaa"><a href="javascript:;">虾闹240g纯棉大码卡通印刷宽松落肩</a></p>
+                        <p class="place">￥159.00</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="box"><a href="http://list.yohobuy.com/new?gender=1,3&amp;order=s_t_desc" target="_blank">查看更多</a></div>
+    <div id="footer1">
+        <div class="footer-top">
+            <div class="top-top">
+                <div class="pic">
+                    <img src="images/2.png" alt="">
+                </div>
+                <div class="text"><span class="red">100%</span><span class="white">品牌正品</span></div>
+
+                <div class="pic">
+                    <img src="images/3.png" alt="">
+                </div>
+                <div class="text"><span class="red">7天</span><span class="white">无理由退货</span></div>
+
+                <div class="pic">
+                    <img src="images/4.png" alt="">
+                </div>
+                <div class="text"><span class="red">便捷</span><span class="white">在线客服</span></div>
+            </div>
+        </div>
+        <div class="footer-main">
+            <ul class="text-1">
+                <li class="tt1"><a href="">新手专区</a></li>
+                <li class="tt2"><a href="">注册登录</a></li>
+                <li class="tt2"><a href="">购物结算</a></li>
+                <li class="tt2"><a href="">下单支付</a></li>
+                <li class="tt2"><a href="">收货评价</a></li>
+            </ul>
+            <ul class="text-1">
+                <li class="tt1"><a href="">会员中心</a></li>
+                <li class="tt2"><a href="">会员制度</a></li>
+                <li class="tt2"><a href="">会员优惠</a></li>
+                <li class="tt2"><a href="">账户管理</a></li>
+                <li class="tt2"><a href="">密码管理</a></li>
+            </ul>
+            <ul class="text-1">
+                <li class="tt1"><a href="">购物指南</a></li>
+                <li class="tt2"><a href="">发票</a></li>
+                <li class="tt2"><a href="">尺码对照</a></li>
+                <li class="tt2"><a href="">尺码解读</a></li>
+                <li class="tt2"><a href="">商品咨询</a></li>
+            </ul>
+            <ul class="text-1">
+                <li class="tt1"><a href="">支付方式</a></li>
+                <li class="tt2"><a href="">在线支付</a></li>
+                <li class="tt2"><a href="">货到付款</a></li>
+                <li class="tt2"><a href="">分期付款</a></li>
+                <li class="tt2"><a href="">优惠券、有货币</a></li>
+            </ul>
+            <ul class="text-1">
+                <li class="tt1"><a href="">配送方式</a></li>
+                <li class="tt2"><a href="">配送说明</a></li>
+                <li class="tt2"><a href="">运费说明</a></li>
+                <li class="tt2"><a href="">验货签收</a></li>
+                <li class="tt2"><a href="">收获样品</a></li>
+            </ul>
+            <ul class="text-1">
+                <li class="tt1"><a href="">售后服务</a></li>
+                <li class="tt2"><a href="">退换货政策</a></li>
+                <li class="tt2"><a href="">退换货流程</a></li>
+                <li class="tt2"><a href="">投诉与建议</a></li>
+                <li class="tt2"><a href="">在线客服</a></li>
+            </ul>
+            <ul class="text-1">
+                <li class="tt1"><a href="">APP常见问题</a></li>
+                <li class="tt2"><a href="">IPhone版</a></li>
+                <li class="tt2"><a href="">Android版</a></li>
+                <li class="tt2"><a href="">wap版</a></li>
+                <li class="tt2"><a href="">IPAD版</a></li>
+            </ul>
+        </div>
+        <div id="footer-main1">
+            <div class="top">
+                <div class="left">
+                    <img src="images/5.png" alt="">
+                </div>
+                <div class="right">
+                    <p class="links">
+                        <a href="//www.yohobuy.com" rel="nofollow">返回首页</a>
+                        <span>|</span>
+                        <a href="//www.yohobuy.com/yohobuy.html" rel="nofollow">YOHO!BUY 有货</a>
+                        <span>|</span>
+                        <a href="//www.yohobuy.com/newpower.html" rel="nofollow">新力传媒</a>
+                        <span>|</span>
+                        <a href="//www.yohobuy.com/contact.html" rel="nofollow">联系我们</a>
+                        <span>|</span>
+                        <a href="//shop.yohobuy.com/settled" rel="nofollow">商家入驻</a>
+                        <span>|</span>
+                        <a href="//www.yohobuy.com/privacy.html" rel="nofollow">隐私条款</a>
+                        <span>|</span>
+                        <a href="//www.yohobuy.com/link.html" rel="nofollow">友情链接</a>
+                        <span>|</span>
+                        <a href="//www.yohobuy.com/brands">潮流品牌大全</a>
+                        <span>|</span>
+                        <a href="//www.yohobuy.com/cate">潮流品类大全</a>
+                        <span>|</span>
+                        <a href="//www.yohobuy.com/cpdq">潮流产品大全</a>
+                        <span>|</span>
+                        <a href="//www.yohobuy.com/guang/news">潮流资讯</a>
+                        <span>|</span>
+                        <a href="//www.yohobuy.com/guang/boys-t2">穿衣搭配(男生版)</a>
+                        <span>|</span>
+                        <a href="//www.yohobuy.com/guang/girls-t2">穿衣搭配(女生版)</a>
+                        <span>|</span>
+                        <a href="//www.yohobuy.com/guang/boys-t1001">潮流人气</a>
+                        <span>|</span>
+                        <a href="//www.yohobuy.com/guang/boys-t4">潮流潮品</a>
+                        <span>|</span>
+                        <a href="//www.yohobuy.com/guang/boys-t22">潮流视频</a>
+                        <span>|</span><br>
+                        <a class="police" target="_blank" href="https://beian.miit.gov.cn" rel="nofollow">苏公网安备
+                            32010502010132号</a>
+                        <span>|</span>
+                        <a target="_blank" href="http://www.yohobuy.com/help/qualificationInfo"
+                            rel="nofollow">出版物经营许可证</a>
+                        <span>|</span>
+                        <a target="_blank" href="https://www.yohobuy.com/help/detail?id=238"
+                            rel="nofollow">苏B2-20120395</a>
+                        <span>|</span>
+                        <a target="_blank" href="https://www.yohobuy.com/help/detail?id=266" rel="nofollow">食品经营许可证</a>
+                    </p>
+                </div>
+            </div>
+            <div class="button">
+                <p>CopyRight © 2007-2022 南京新与力文化传播有限公司 苏ICP备09011225号 NewPower Co. 版权所有
+                    江苏省南京市建邺区嘉陵江东街18号南京国家广告产业园5栋17,18楼 025-87781000</p>
+            </div>
+        </div>
+        <div id="footer-button">
+            <div class="left">友情链接：</div>
+            <div class="right">
+                <ul class="clearfix">
+                    <li>有货</li>
+                    <li>时尚品牌网</li>
+                    <li>服装品牌</li>
+                    <li>拍婚纱照</li>
+                    <li>搜好货网</li>
+                    <li>手表知识</li>
+                    <li>丽人时尚网</li>
+                    <li>公司评价</li>
+                    <li>商品百科</li>
+                    <li>微信公众号制作</li>
+                    <li>TOM网</li>
+                    <li>免费试用</li>
+                    <li>女装批发拿货</li>
+                    <li>佐卡伊</li>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/swiper-bundle.min.min.js"></script>
+    <script src="js/index.min.js"></script>
+
+    <script>
+        //   <!-- 关闭 -->
+        $('.down-x').click(function(){
+            $('#down-box').hide()
+        })
+        
+        // 顶部事件
+       
+        $(window).scroll(function() {
+            $('#right-float').show()
+            if($(window).scrollTop() == 0){
+            $('#right-float').hide() 
+            }
+        } )
+
+        $('.return-top').click(()=>{
+            $('html,body').animate({
+                  scrollTop:0
+            },500)
+            
+          
+        })
+       
+
+    </script>
+
+    <!-- <script>
+        $(() => {
+            $('#toutou').load('./html/public.html  #header')
+            $('#dingwei').load('./html/public.html  #down-box')
+            $('#youfu').load('./html/public.html #right-float')
+            $(window).scroll(function () {
+                $('#right-float').show()
+                if ($(window).scrollTop() == 0) {
+                    $('#right-float').hide()
+                }
+            })
+            $('.return-top').click(() =>{
+            $('html,body').animate({
+                  scrollTop:0
+            },500)
+        })
+        })
+
+    </script> -->
+</body>
+
+</html>

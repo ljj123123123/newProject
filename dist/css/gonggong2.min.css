@@ -1,0 +1,172 @@
+#header .headT .center-content .leftyoho ul li {
+  position: relative;
+}
+#header .headT .center-content .leftyoho ul li .yin {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+#header .headT .center-content .leftyoho ul li:hover .yin {
+  display: block;
+}
+#header .headT .center-content .leftyoho ul li:hover .xian {
+  opacity: 0;
+}
+#header .headT .center-content .yohoright ul .help {
+  position: relative;
+}
+#header .headT .center-content .yohoright ul .help .kefu {
+  width: 89px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 12px;
+  text-align: center;
+  background-color: gainsboro;
+  position: absolute;
+  top: 32px;
+  left: 6px;
+  display: none;
+}
+#header .headT .center-content .yohoright ul .help .help1 {
+  width: 89px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 12px;
+  text-align: center;
+  background-color: gainsboro;
+  position: absolute;
+  top: 64px;
+  left: 6px;
+  z-index: 12;
+  display: none;
+}
+#header .headT .center-content .yohoright ul .help:hover .kefu {
+  display: block;
+}
+#header .headT .center-content .yohoright ul .help:hover .help1 {
+  display: block;
+}
+#header .headT .center-content .yohoright ul .gzhoyo {
+  position: relative;
+}
+#header .headT .center-content .yohoright ul .gzhoyo .erweima {
+  position: absolute;
+  top: 32px;
+  left: -27px;
+  width: 146px;
+  height: 172px;
+  z-index: 12;
+  display: none;
+}
+#header .headT .center-content .yohoright ul .gzhoyo .erweima img {
+  width: 100%;
+  height: 100%;
+}
+#header .headT .center-content .yohoright ul .gzhoyo:hover .erweima {
+  display: block;
+}
+
+.headD .center-content .nav-list .fushi #list1 {
+  display: none;
+  width: 100%;
+  height: 410px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 38px;
+  padding: 30px 0;
+  background-color: #f8f8f8;
+  z-index: 900;
+}
+.headD .center-content .nav-list .fushi #list1 .list1-center {
+  width: 1150px;
+  height: 350px;
+  margin: 0 auto;
+  display: flex;
+}
+.headD .center-content .nav-list .fushi #list1 .list1-center ul {
+  width: 260px;
+  height: 350px;
+  list-style: none;
+  border-right: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.headD .center-content .nav-list .fushi #list1 .list1-center ul li {
+  margin-left: 40px;
+}
+.headD .center-content .nav-list .fushi #list1 .list1-center ul li a {
+  display: inline-block;
+  width: 190px;
+  line-height: 35px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.headD .center-content .nav-list .fushi #list1 .list1-center ul li .second {
+  line-height: 20px;
+}
+.headD .center-content .nav-list .fushi #list1 .list1-center .picture {
+  width: 300px;
+  height: 200px;
+}
+.headD .center-content .nav-list .fushi #list1 .list1-center .picture p {
+  margin-top: 20px;
+  margin-left: 100px;
+}
+.headD .center-content .nav-list .xiezi #list2 {
+  display: none;
+  width: 100%;
+  height: 410px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 38px;
+  padding: 30px 0;
+  background-color: #f8f8f8;
+  z-index: 900;
+}
+.headD .center-content .nav-list .xiezi #list2 .list2-center {
+  width: 1150px;
+  height: 350px;
+  margin: 0 auto;
+  display: flex;
+}
+.headD .center-content .nav-list .xiezi #list2 .list2-center ul {
+  width: 260px;
+  height: 350px;
+  list-style: none;
+  border-right: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.headD .center-content .nav-list .xiezi #list2 .list2-center ul li {
+  margin-left: 40px;
+}
+.headD .center-content .nav-list .xiezi #list2 .list2-center ul li a {
+  display: inline-block;
+  width: 190px;
+  line-height: 35px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.headD .center-content .nav-list .xiezi #list2 .list2-center ul li .second {
+  line-height: 20px;
+}
+.headD .center-content .nav-list .xiezi #list2 .list2-center .picture {
+  margin-left: 300px;
+  width: 300px;
+  height: 200px;
+}
+.headD .center-content .nav-list .xiezi #list2 .list2-center .picture p {
+  margin-top: 20px;
+  margin-left: 200px;
+}
+.headD .center-content .fushi:hover #list1 {
+  display: block;
+}
+.headD .center-content .xiezi:hover #list2 {
+  display: block;
+}
