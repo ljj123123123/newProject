@@ -1,0 +1,238 @@
+#header {
+    .headT {
+        .center-content {
+            .leftyoho {
+                ul {
+                    li {
+                        position: relative;
+
+                        .yin {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            display: none;
+                        }
+
+                    }
+
+                    li:hover .yin {
+                        display: block;
+                    }
+
+                    li:hover .xian {
+                        opacity: 0;
+                    }
+                }
+            }
+
+            .yohoright {
+                ul {
+                    .help {
+                        position: relative;
+
+                        .kefu {
+                            width: 89px;
+                            height: 32px;
+                            line-height: 32px;
+                            font-size: 12px;
+                            text-align: center;
+                            background-color: gainsboro;
+                            position: absolute;
+                            top: 32px;
+                            left: 6px;
+                            display: none;
+
+
+                        }
+
+                        .help1 {
+                            width: 89px;
+                            height: 32px;
+                            line-height: 32px;
+                            font-size: 12px;
+                            text-align: center;
+                            background-color: gainsboro;
+                            position: absolute;
+                            top: 64px;
+                            left: 6px;
+                            z-index: 12;
+                            display: none;
+                        }
+                    }
+
+                    .help:hover .kefu {
+                        display: block;
+                    }
+
+                    .help:hover .help1 {
+                        display: block;
+                    }
+
+                    .gzhoyo {
+                        position: relative;
+
+                        .erweima {
+                            position: absolute;
+                            top: 32px;
+                            left: -27px;
+                            width: 146px;
+                            height: 172px;
+                            z-index: 12;
+                            display: none;
+
+                            img {
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                    }
+
+                    .gzhoyo:hover .erweima {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.headD {
+    .center-content {
+        .nav-list {
+            .fushi {
+                #list1 {
+                    display: none;
+                    width: 100%;
+                    height: 410px;
+                    box-sizing: border-box;
+                    position: absolute;
+                    left: 0;
+                    top: 38px;
+                    // display: none;
+                    padding: 30px 0;
+                    background-color: #f8f8f8;
+                    z-index: 900;
+
+                    .list1-center {
+                        width: 1150px;
+                        height: 350px;
+                        margin: 0 auto;
+                        // background-color: yellow;
+                        display: flex;
+
+                        ul {
+                            width: 260px;
+                            height: 350px;
+                            list-style: none;
+                            border-right: 1px solid black;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-evenly;
+
+                            li {
+                                margin-left: 40px;
+
+                                a {
+                                    display: inline-block;
+                                    width: 190px;
+                                    line-height: 35px;
+                                    text-decoration: none;
+                                    font-size: 14px;
+
+                                }
+
+                                .second {
+                                    line-height: 20px;
+                                }
+                            }
+
+                        }
+
+                        .picture {
+                            width: 300px;
+                            height: 200px;
+
+                            // background-color: aqua;
+                            p {
+                                margin-top: 20px;
+                                margin-left: 100px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .xiezi {
+                #list2 {
+                    display: none;
+                    width: 100%;
+                    height: 410px;
+                    box-sizing: border-box;
+                    position: absolute;
+                    left: 0;
+                    top: 38px;
+                    // display: none;
+                    padding: 30px 0;
+                    background-color: #f8f8f8;
+                    z-index: 900;
+
+                    .list2-center {
+                        width: 1150px;
+                        height: 350px;
+                        margin: 0 auto;
+                        // background-color: yellow;
+                        display: flex;
+
+                        ul {
+                            width: 260px;
+                            height: 350px;
+                            list-style: none;
+                            border-right: 1px solid black;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-evenly;
+
+                            li {
+                                margin-left: 40px;
+
+                                a {
+                                    display: inline-block;
+                                    width: 190px;
+                                    line-height: 35px;
+                                    text-decoration: none;
+                                    font-size: 14px;
+
+                                }
+
+                                .second {
+                                    line-height: 20px;
+                                }
+                            }
+
+                        }
+
+                        .picture {
+                            margin-left: 300px;
+                            width: 300px;
+                            height: 200px;
+
+                            // background-color: aqua;
+                            p {
+                                margin-top: 20px;
+                                margin-left: 200px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .fushi:hover #list1 {
+            display: block;
+        }
+        .xiezi:hover #list2{
+            display: block;
+        }
+    }
+}

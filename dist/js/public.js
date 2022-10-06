@@ -1,0 +1,1 @@
+"use strict";$(".down-x").click(function(){$("#down-box").hide()}),$(window).scroll(function(){$("#right-float").show(),0==$(window).scrollTop()&&$("#right-float").hide()}),$(".return-top").click(function(){$("html,body").animate({scrollTop:0},500)});
